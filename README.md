@@ -1,6 +1,12 @@
 # Mega Maintenance Depot — Surviving the Aftermath Mod
 
+[![Steam Workshop](https://img.shields.io/badge/Steam_Workshop-Subscribe-1b2838?logo=steam)](https://steamcommunity.com/sharedfiles/filedetails/?id=3727107418)
+
 A "全图维护站" / map-wide Maintenance Depot for **Surviving the Aftermath** (Iceflake Studios, 2021). It auto-repairs every damaged building on the map from a single building.
+
+**Subscribe on Steam Workshop**: <https://steamcommunity.com/sharedfiles/filedetails/?id=3727107418>
+
+> Most players should just subscribe via the Workshop link above. The build instructions below are for developers who want to modify or rebuild the mod from source.
 
 | Feature | Value |
 |---|---|
