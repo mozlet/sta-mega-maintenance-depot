@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1677054141, guid: 503d4024ee664e94cb10906948c3415f, type: 3}
+  m_Name: MegaMaintenanceDepot
+  m_EditorClassIdentifier: 
+  id: 1700000001
+  basicBuilding: {fileID: 0}
+  unlockCondition: 0
+  assetBundleKey: 
+  name: '#MEGA_MAINTENANCE_DEPOT'
+  category: 5
+  menuType: 0
+  includedInStatistics: 1
+  showDetailsInTechInfo: 1
+  isCampsite: 0
+  priority: 99
+  enableProductionLimit: 1
+  workSlotCount: 6
+  activateSuitableOverlay: 1
+  activateAreaOfEffectOverlay: 1
+  overrideSuitableOverlay: 0
+  minimumGamePhase: 20
+  buildDuration: 100
+  resources:
+  - type: {fileID: 11400000, guid: 7c0589b436c124e4aa343cf5117f7df0, type: 2}
+    value: 350
+  - type: {fileID: 11400000, guid: 014bb928a1ca3144f9f49eb1ecb30650, type: 2}
+    value: 325
+  repairResource:
+    type: {fileID: 11400000, guid: 014bb928a1ca3144f9f49eb1ecb30650, type: 2}
+    value: 5
+  destructionResources:
+  - type: {fileID: 11400000, guid: 8058631756b98f04f9ece6f412144c3e, type: 2}
+    value: 100
+  canBeRepaired: 1
+  roadID: 
+  level: 1
+  icon: {fileID: 21300000, guid: b13ac5df4496207428e46d323f7b0754, type: 3}
+  bigIcon: {fileID: 21300000, guid: b13ac5df4496207428e46d323f7b0754, type: 3}
+  floaterYOffset: 0
+  models:
+  - visual: {fileID: 4057009956936639649, guid: 0ea8ec8a0e775aa5ba6a7e9cb6411d80,
+      type: 3}
+    brushVisual: {fileID: 4057009956936639649, guid: 0ea8ec8a0e775aa5ba6a7e9cb6411d80,
+      type: 3}
+    constructions:
+    - {fileID: 1676370284329800940, guid: eb1921f87b58dd041b8bcfaa7e286821, type: 3}
+    destructionModel: {fileID: 0}
+  visualizationData:
+    showDeposits: {fileID: 0}
+    buildingPath: []
+    entryPath: []
+    loopWorkingPath: 1
+  skipEntryPath: 0
+  properties:
+  - {fileID: 11400000, guid: 72ced03a9df513173a251329965d8660, type: 2}
+  indestructible: 0
+  damageMultiplier: 1
+  combatDamageMultiplier: 0.25
+  isAffectedByPollution: 0
+  isDisabledByPollution: 1
+  isDisabledByCold: 0
+  canReceiveHeat: 1
+  pollutionShielding: 0
+  pollutionResistance: 0
+  createPollution: 0
+  alwaysCreatePollution: 0
+  pollutionCreationRate: 0
+  hideFunctionButtons: 0
+  hideHealthElement: 0
+  hideCapacityElement: 0
+  hideDescriptionElement: 0
+  hideEfficiencyElement: 1
+  showTerraformElement: 0
+  hideHealthBar: 0
+  hideStatusBlock: 0
+  hideResourceRequestElement: 0
+  placement:
+    tiles:
+      x: 10
+      y: 10
+    topReserved: 0
+    bottomReserved: 1
+    leftReserved: 0
+    rightReserved: 0
+    placementTiles: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  placementType: 0
+  noDrySoil: 0
+  onlyDrySoil: 0
+  showRadius: 0
+  showRadiusTileGrid: 0
+  useTileEfficiency: 0
+  cellEfficiencyMode: 0
+  defaultCellEfficiencyResource: {fileID: 0}
+  placementWorkAreaLimit: 0
+  useWorkAreaEfficiency: 1
+  canEditWorkArea: 0
+  canResizeWorkArea: 0
+  workAreaRadius: 500
+  workAreaOffset:
+    x: 0
+    y: 0
+  workAreaType: 0
+  highlightDeposits: 0
+  highlightWaterConsumers: 0
+  highlightEnergyNodes: 0
+  canEditStorage: 0
+  targetEfficiency: 0.9
+  isUnique: 0
+  isRemovable: 1
+  restrictedPlacement: 0
+  onlyDeepDeposits: 0
+  restrictedPlacementPosition: {x: 0, y: 0}
+  decalOverride: {fileID: 0}
+  decalEnabled: 1
+  disableForwardDecals: 0
+  randomRotation: 0
+  buildingDestroyedSoundEvent: 
+  buildingRunningSoundEvent: 
+  buildingSelectedSoundEvent: 
+  damageTargetTypes: 0
+  baseBuildingTemplate: {fileID: 0}
+  upgradeBuildingTemplate: {fileID: 0}
+  dlcUpgradeBuildingTemplate: -1
+  upgradeType: 0
+  isUpgrade: 0
+  automaticUpgrade: 0
+  buildingTechDescription: '#DESC_MEGA_MAINTENANCE_DEPOT'
